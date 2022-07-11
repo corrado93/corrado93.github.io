@@ -1,0 +1,94 @@
+url: http://streetturtle.github.io
+projectUrl: jekyl-cv-crafter
+
+# leave blank fields which you don't want to fill/be displayed
+person:
+  name: Giuseppe Corrado
+  depiction: 
+  profession: Aerospace engineer | Marie Sklodowska-Curie Fellow
+  location: Ingolstadt, Germany
+  citizenship: Italian
+  email: gcorrado1993@gmail.com
+  site: http://corrado93.github.io
+  phone: #+39 3496805928
+  github: /corrado93
+  stackoverflow: #/streetturtle
+  linkedin: #/giuseppe-corrado-6563a812b
+
+career:
+ - position: Marie Sklodowska-Curie Fellow
+   company: Airbus Defence and Space
+   location: Manching, Germany
+   dates: August 2020 - current
+   summary: In the framework of the EU funded ITN-EID OptiMACS project, a research work regarding the development of advanced failure models for aerospace composite structures was carried out. The main contributions are: an extended laminate failure theory (details in an open access article and presented at the 8th Conference on Mechanical Response of Composites), a mesoscale damage progression model in a FE framework (work presented at ECCOMAS and ECCM conferences, and submitted to “Composites Part B: Engineering”)
+   accomplishments:
+    - accomplishment: #
+    - accomplishment: #He refers to himself as the king of pranks. Since he the most funniest of his brothers and he hasn't shown to be wrong since he was able to show his pranking skills against his brothers like water balloons as he wants to prank them all and he was able to use his prank of water ballon to use against the tank of the truck.
+ - position: Marie Sklodowska-Curie Fellow
+   company: Faculty of Engineering, University of Porto
+   location: Porto, Portugal
+   dates: February 2019 – July 2020
+   summary: Within the OptiMACS project, the first contribution of this research work consisted in the evaluation of state-of-art failure criteria and their implementation in post-processing tools (using Python) and user subroutines for ABAQUS (in Fortran) to perform hot-spot failure analysis in a FE context (work presented at the 7th Aircraft Structural Design Conference).
+   accomplishments:
+    - accomplishment: #Mikey's skills as a skateboarder and a ninja give him a great ability with balance.
+    - accomplishment: #He has the normal ability of a turtle to go into his shell.
+
+technicalSkills:
+  list:
+    - tr: "Modelling and mechanical analysis of structural components (with FEM method)"
+    - tr: "Composite manufacturing (lamination, autoclave, vacuum consolidation)"
+    - tr: "Compression and tension quasi-static testing (making use of the laser triangulation sensor)"
+    - tr: "Object-oriented programming with Python"
+    - tr: "Preparation of technical reports"
+    - tr: "Very proud of his talent for naming thing"
+  backend:
+   - name: FE analysis of structural components
+     level: 90
+   - name: Development of constitutive models
+     level: 80
+#  frontend:
+#   - name: Cooking Skills
+#     level: 80
+#   - name: Pranks
+#     level: 90
+#  other:
+#   - name: Shadow Puppet Skill
+#     level: 90
+#   - name: Teaching
+#     level: 100
+
+#LanguageSkills:
+#  backend:
+#   - name: Italian
+#     level: 100
+#   - name: English
+#     level: 90
+#   - name: Portuguese
+#     level: 50
+#   - name: German
+#     level: 40
+
+#sideProjects:
+#  - name: jekyll-clean-dark
+#    description: Theme for Jekyll - static site generator. After creating theme for my blog I shared it on github.
+#    link: https://github.com/streetturtle/jekyll-clean-dark
+#    type: github
+#    langs: HTML/CSS/Bootstrap
+
+
+education:
+  - name: Faculty of Engineering, University of Porto
+    degree: Doctor Degree in Mechanical Engineering
+    location: Porto, Portugal
+    dates: 2019 – current
+    link: #http://tmnt2012series.wikia.com/
+  - name: Faculty of Engineering, University of Salento
+    degree: Master of Science in Aerospace Engineering
+    location: Lecce, Italy
+    dates: 2015 – 2018
+    link: #http://tmnt2012series.wikia.com/
+  - name: Faculty of Engineering, University of Salento
+    degree: Bachelor Degree in Industrial Engineering
+    location: Lecce, Italy
+    dates: 2012 – 2015
+    link: #http://tmnt2012series.wikia.com/
