@@ -4,7 +4,7 @@
 # leave blank fields which you don't want to fill/be displayed
 person:
   name: Giuseppe Corrado
-  depiction: img.jpg
+  depiction: img.JPG
   profession: Aerospace engineer | Marie Sklodowska-Curie Fellow
   location: Ingolstadt, 85049, Germany
   citizenship: Italian
