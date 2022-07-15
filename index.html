@@ -52,7 +52,9 @@
       <div class="col-xs-3 bg-gray">
         <div class="row">
           <div class="section text-center">
-            <img src="{{ site.data.cv.person.depiction }}" class="img-responsive img-circle" alt="{{ site.data.cv.person.name }}'s Photo">
+            {% if site.data.cv.person.depiction %}
+              <img src="{{ site.data.cv.person.depiction }}" class="img-responsive img-circle">
+            {% endif%} 
           </div>
 
           <div class="section">
