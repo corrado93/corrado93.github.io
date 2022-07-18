@@ -1,6 +1,14 @@
 #url: http://corrado93.github.io
 #projectUrl: jekyl-cv-crafter
 
+
+# To do: 
+#       1) rewrite "Intern" section. It can be shorter
+#       2) remove Erasmus. Move it to "Education section"
+#       3) add flags to each position.
+#       
+
+
 # leave blank fields which you don't want to fill/be displayed
 person:
   name: Giuseppe Corrado
@@ -8,11 +16,13 @@ person:
   profession: Aerospace engineer | Marie Sklodowska-Curie Fellow
   location: Ingolstadt, 85049, Germany
   citizenship: Italian
-  email: gcorrado1993@gmail.com
+  email: > 
+        gcorrado1993@gmail.com,
+        giuseppe.corrado@airbus.com
   site: http://corrado93.github.io
   phone: #+
   github: /corrado93
-  stackoverflow: #/streetturtle
+  #stackoverflow: 
   linkedin: /giuseppe-corrado-6563a812b
 
 career:
@@ -21,64 +31,91 @@ career:
    location: Manching, Germany
    dates: August 2020 - current
    summary: >
-              In the framework of the EU funded ITN-EID <a href="https://www.optimacs.net" target="_blank">OptiMACS</a>,
+              In the framework of the EU funded ITN-EID <a href="https://www.optimacs.net" target="_blank">OptiMACS</a>
               project, a research work regarding the development of advanced failure models 
               for aerospace composite structures was carried out. The main contributions are: an extended laminate failure theory (details in 
-              an <a href="https://doi.org/10.1017/aer.2021.121" target="_blank">open access article</a>
-              and presented at the <a href="https://congress.cimne.com/Composites2021/frontal/programprint.asp?t=intro" 
-              target="_blank">8th Conference on Mechanical Response of Composites</a> in 2021), a mesoscale damage progression 
+              an <a href="https://doi.org/10.1017/aer.2021.121">journal article</a> 
+              - <a href="https://hdl.handle.net/10216/139464">available here</a> -,
+               presented at the <a href="https://congress.cimne.com/Composites2021/frontal/programprint.asp?t=intro" 
+              >8th Conference on Mechanical Response of Composites</a> in 2021), a mesoscale damage progression 
               model in a FE framework (work presented at <a href="https://www.eccomas2022.org/frontal/default.asp" target="_blank">ECCOMAS</a> 
-              and <a href="https://eccm20.org/" target="_blank">ECCM</a> conferences in 2022, and submitted to “Composites Part B: Engineering”).
-   accomplishments:
-    - accomplishment: #
-    - accomplishment: #He refers to himself as the king of pranks. Since he the most funniest of his brothers and he hasn't shown to be wrong since he was able to show his pranking skills against his brothers like water balloons as he wants to prank them all and he was able to use his prank of water ballon to use against the tank of the truck.
+              and <a href="https://eccm20.org/">ECCM</a> conferences in 2022, and submitted to “Composites Part B: Engineering”).
+   #accomplishments:
+   # - accomplishment: #
+   # - accomplishment: #He refers to himself as the king of pranks. Since he the most funniest of his brothers and he hasn't shown to be wrong since he was able to show his pranking skills against his brothers like water balloons as he wants to prank them all and he was able to use his prank of water ballon to use against the tank of the truck.
  - position: Marie Sklodowska-Curie Fellow
    company: Faculty of Engineering, University of Porto
    location: Porto, Portugal
    dates: February 2019 – July 2020
    summary: >
-              Within the <a href="https://www.optimacs.net" target="_blank">OptiMACS</a> project, the first contribution of this research work 
+              Within the <a href="https://www.optimacs.net">OptiMACS</a> project, the first contribution of this research work 
               consisted in the evaluation of state-of-art failure criteria and their implementation in post-processing tools (using Python) and 
               user subroutines for ABAQUS (in Fortran) to perform hot-spot failure analysis in a FE context (work presented at the 
               <a href="https://www.aerosociety-events.com/raes-events-terminal/7th-aircraft-structural-design-conference/" 
               target="_blank">7th Aircraft Structural Design Conference</a>).
-   accomplishments:
-    - accomplishment: #Mikey's skills as a skateboarder and a ninja give him a great ability with balance.
-    - accomplishment: #He has the normal ability of a turtle to go into his shell.
-
+   #accomplishments:
+   # - accomplishment: #Mikey's skills as a skateboarder and a ninja give him a great ability with balance.
+   # - accomplishment: #He has the normal ability of a turtle to go into his shell.
+ - position: Scientific researcher
+   company: University of Strathclyde
+   location: Glasgow, UK
+   dates: August 2018 – December 2018
+   summary: >
+             Ultrasonic Inspection techniques for composites - 
+             aligned with DAITAS project, funded by GKN Aerospace.
+ #
+ - position: Intern
+   company: GKN Fokker Aerostructures
+   location: Hoogeveen, Netherlands
+   dates: June 2017 – September 2017
+   summary: >
+             ”Impact and compression test on ARF stringer run out at 
+             barrel joint” - GKN Fokker Aerostructures is developing a
+             thermoplastic composite area ruled rear fuselage section 
+             for Gulfstream G650, based on butt joint half-t stringers.
+             Each of these stringers have a run out, whose function is 
+             to direct loads toward the bulkhead. During the traineeship
+             period, the impact (simulating in-service tool drop 
+             collisions) and compression resistance of these run out was
+             evaluated.
+ - position: Erasmus student
+   company: Petru Maior, University of Targu Mures
+   location: Targu Mures, Romania
+   dates: September 2014 – May 2015
+   summary: >
+             Industrial Engineering courses and projects in english.
+             Active member of ESTIEM organisation.
+#
 technicalSkills:
   list:
-    - tr: "Modelling and mechanical analysis of structural components (with FEM method)"
-    - tr: "Composite manufacturing (lamination, autoclave, vacuum consolidation)"
-    - tr: "Compression and tension quasi-static testing (making use of the laser triangulation sensor)"
-    - tr: "Object-oriented programming with Python"
-    - tr: "Preparation of technical reports"
+    - tr: "- ABAQUS / ANSYS / NASTRAN"
+    - tr: "- Python / Java"
+    - tr: "- Matlab / Maple / Excel"
+    - tr: "- Git"
+    - tr: "- Latex / Word"
   backend:
-   - name: FE analysis of structural components
+   - name: Implicit / explicit FE simulation of structural elements (ABAQUS, Ansys, Nastran)
      level: 90
-   - name: Development of constitutive models
+   - name: Data visualization (2D charting - 3D openGL)
+     level: 90
+   - name: Development and implementation of constitutive models for CFRPs (Fortran)
      level: 80
-#  frontend:
-#   - name: Cooking Skills
-#     level: 80
-#   - name: Pranks
-#     level: 90
-#  other:
-#   - name: Shadow Puppet Skill
-#     level: 90
-#   - name: Teaching
-#     level: 100
-
-#LanguageSkills:
-#  backend:
-#   - name: Italian
-#     level: 100
-#   - name: English
-#     level: 90
-#   - name: Portuguese
-#     level: 50
-#   - name: German
-#     level: 40
+   - name: Object-oriented programming (Python, Javascript)
+     level: 65
+   - name: Manufacturing of laminated composites (lamination, autoclave, vacuum consolidation)
+     level: 50
+   - name: Preparation of quasi-static tests at coupon and structural level
+     level: 50
+languageSkills:
+  backend:
+   - name: Italian
+     level: 100
+   - name: English
+     level: 90
+   - name: Portuguese
+     level: 50
+   - name: German
+     level: 40
 
 sideProjects:
   - name: py-omni-strain-envelopes
@@ -94,13 +131,22 @@ education:
     location: Porto, Portugal
     dates: 2019 – current
     link: https://sigarra.up.pt/feup/
+    summary: >
+             Thesis: ”Development of extended and advanced failure models 
+             and design criteria for aerospace composites”.
   - name: Faculty of Engineering, University of Salento
     degree: Master of Science in Aerospace Engineering
     location: Lecce, Italy
     dates: 2015 – 2018
     link: https://www.unisalento.it/
+    summary: >
+              Thesis: "Development of rechargeable Zinc-air batteries 
+              for the CFM-Air Dardo aircraft".
   - name: Faculty of Engineering, University of Salento
     degree: Bachelor Degree in Industrial Engineering
     location: Lecce, Italy
     dates: 2012 – 2015
     link: https://www.unisalento.it/
+    summary: >
+              Thesis: "CFD simulation about the thermal behaviour of a 
+              nanofluid".
