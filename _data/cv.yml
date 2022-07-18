@@ -13,7 +13,7 @@
 person:
   name: Giuseppe Corrado
   depiction: img.JPG
-  profession: Aerospace engineer | Marie Sklodowska-Curie Fellow
+  profession: Aerospace engineer | Marie Skłodowska-Curie Fellow
   location: Ingolstadt, 85049, Germany
   citizenship: Italian
   email: > 
@@ -26,7 +26,7 @@ person:
   linkedin: /giuseppe-corrado-6563a812b
 
 career:
- - position: Marie Sklodowska-Curie Fellow
+ - position: Marie Skłodowska-Curie Fellow
    company: Airbus Defence and Space
    location: Manching, Germany
    dates: August 2020 - current
@@ -43,7 +43,7 @@ career:
    #accomplishments:
    # - accomplishment: #
    # - accomplishment: #He refers to himself as the king of pranks. Since he the most funniest of his brothers and he hasn't shown to be wrong since he was able to show his pranking skills against his brothers like water balloons as he wants to prank them all and he was able to use his prank of water ballon to use against the tank of the truck.
- - position: Marie Sklodowska-Curie Fellow
+ - position: Marie Skłodowska-Curie Fellow
    company: Faculty of Engineering, University of Porto
    location: Porto, Portugal
    dates: February 2019 – July 2020
