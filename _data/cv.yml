@@ -1,11 +1,9 @@
-#url: http://corrado93.github.io
+url: http://corrado93.github.io
 #projectUrl: jekyl-cv-crafter
 
 
 # To do: 
-#       1) rewrite "Intern" section. It can be shorter
-#       2) remove Erasmus. Move it to "Education section"
-#       3) add flags to each position.
+#       1) add flags to each position.
 #       
 
 
@@ -29,16 +27,16 @@ career:
  - position: Marie Skłodowska-Curie Fellow
    company: Airbus Defence and Space
    location: Manching, Germany
-   dates: August 2020 - current
+   dates: 08.2020 - current
    summary: >
-              In the framework of the EU funded ITN-EID <a href="https://www.optimacs.net" target="_blank">OptiMACS</a>
-              project, a research work regarding the development of advanced failure models 
+              In the framework of the EU funded ITN-EID <a href="https://www.optimacs.net">OptiMACS</a>
+              project, a research work involving the development of advanced failure models 
               for aerospace composite structures was carried out. The main contributions are: an extended laminate failure theory (details in 
               an <a href="https://doi.org/10.1017/aer.2021.121">journal article</a> 
               - <a href="https://hdl.handle.net/10216/139464">available here</a> -,
                presented at the <a href="https://congress.cimne.com/Composites2021/frontal/programprint.asp?t=intro" 
               >8th Conference on Mechanical Response of Composites</a> in 2021), a mesoscale damage progression 
-              model in a FE framework (work presented at <a href="https://www.eccomas2022.org/frontal/default.asp" target="_blank">ECCOMAS</a> 
+              model in a FE framework (work presented at <a href="https://www.eccomas2022.org/frontal/default.asp">ECCOMAS</a> 
               and <a href="https://eccm20.org/">ECCM</a> conferences in 2022, and submitted to “Composites Part B: Engineering”).
    #accomplishments:
    # - accomplishment: #
@@ -46,11 +44,11 @@ career:
  - position: Marie Skłodowska-Curie Fellow
    company: Faculty of Engineering, University of Porto
    location: Porto, Portugal
-   dates: February 2019 – July 2020
+   dates: 02.2019 – 07.2020 / 18m
    summary: >
               Within the <a href="https://www.optimacs.net">OptiMACS</a> project, the first contribution of this research work 
               consisted in the evaluation of state-of-art failure criteria and their implementation in post-processing tools (using Python) and 
-              user subroutines for ABAQUS (in Fortran) to perform hot-spot failure analysis in a FE context (work presented at the 
+              user subroutines for Abaqus (in Fortran) to perform hot-spot failure analysis in a FE context (work presented at the 
               <a href="https://www.aerosociety-events.com/raes-events-terminal/7th-aircraft-structural-design-conference/" 
               target="_blank">7th Aircraft Structural Design Conference</a>).
    #accomplishments:
@@ -59,42 +57,38 @@ career:
  - position: Scientific researcher
    company: University of Strathclyde
    location: Glasgow, UK
-   dates: August 2018 – December 2018
+   dates: 08.2018 – 12.2018 / 5m
    summary: >
-             Ultrasonic Inspection techniques for composites - 
-             aligned with DAITAS project, funded by GKN Aerospace.
+             Research on ultrasonic inspection techniques for composites - 
+             aligned with DAITAS project, funded by GKN Aerospace. During 
+             this period I got the chance to understand the state-of-art technologies 
+             on non-distructive inspections using ultrasounds, while studing the physics 
+             behind it. Furthermore, I learned how to use CIVA to run simulations on 
+             ultrasonic inspections on composite materials.
  #
- - position: Intern
+ - position: Intern in Composites R&D department
    company: GKN Fokker Aerostructures
    location: Hoogeveen, Netherlands
-   dates: June 2017 – September 2017
+   dates: 06.2017 – 09.2017 / 4m
    summary: >
-             ”Impact and compression test on ARF stringer run out at 
-             barrel joint” - GKN Fokker Aerostructures is developing a
+             During this internship period, the impact (simulating in-service tool drop 
+             collisions) behaviour and compression after impact (CAI) resistance of a 
+             thermoplastic stringer run-out was evaluated. 
+             This experimental work was performed for the development of a
              thermoplastic composite area ruled rear fuselage section 
-             for Gulfstream G650, based on butt joint half-t stringers.
-             Each of these stringers have a run out, whose function is 
-             to direct loads toward the bulkhead. During the traineeship
-             period, the impact (simulating in-service tool drop 
-             collisions) and compression resistance of these run out was
-             evaluated.
- - position: Erasmus student
-   company: Petru Maior, University of Targu Mures
-   location: Targu Mures, Romania
-   dates: September 2014 – May 2015
-   summary: >
-             Industrial Engineering courses and projects in english.
-             Active member of ESTIEM organisation.
-#
+             for Gulfstream G650, based on butt joint half-T stringers.
+#             
 technicalSkills:
   list:
-    - tr: "- ABAQUS / ANSYS / NASTRAN"
+    - tr: "- Abaqus / Ansys / Nastran"
     - tr: "- Python / Java"
     - tr: "- Matlab / Maple / Excel"
     - tr: "- Git"
     - tr: "- Latex / Word"
   backend:
-   - name: Implicit / explicit FE simulation of structural elements (ABAQUS, Ansys, Nastran)
+   - name: Implicit / explicit FE simulation of structural elements (Abaqus, Ansys, Nastran)
+     level: 90
+   - name: Abaqus scripting with Python (pre-/post-processing)
      level: 90
    - name: Data visualization (2D charting - 3D openGL)
      level: 90
@@ -118,12 +112,14 @@ languageSkills:
      level: 40
 
 sideProjects:
-  - name: py-omni-strain-envelopes
-    description: Py script to generate omni-strain failure envelopes. After publishing an open-access article for my PhD, I shared the script on github.
+  - name: py-failure-envelopes-omnistrain
+    description: >
+                  Py script to generate extendend omni-strain failure envelopes. 
+                  After publishing a journal article for my PhD, 
+                  I shared the script on this github repository.
     link: https://github.com/corrado93/py-omni-strain-envelopes
     type: github
     langs: PYTHON
-
 
 education:
   - name: Faculty of Engineering, University of Porto
@@ -142,6 +138,14 @@ education:
     summary: >
               Thesis: "Development of rechargeable Zinc-air batteries 
               for the CFM-Air Dardo aircraft".
+  - name: Petru Maior, University of Targu Mures
+    degree: Erasmus
+    location: Targu Marus, Romania
+    dates: 09.2014 – 05.2015 / 8m
+    link: https://www.umfst.ro/inginerie/oferta-educationala.html
+    summary: >
+              Industrial Engineering courses and projects.
+              Active member of ESTIEM organisation.  
   - name: Faculty of Engineering, University of Salento
     degree: Bachelor Degree in Industrial Engineering
     location: Lecce, Italy
