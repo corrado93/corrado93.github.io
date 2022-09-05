@@ -7,13 +7,6 @@ body{
   background-image: url('https://www.transparenttextures.com/patterns/random-grey-variations.png');
 }
 
-@media only screen and (min-width: 481px) {
-  body{
-    padding-top: 24px;
-    padding-right: 24px;
-    padding-left: 24px;
-  }
-}
 
 .container{
   background-color: #FFFFFF;
@@ -104,5 +97,13 @@ h1, h2{
     -webkit-print-color-adjust: exact !important;
     box-shadow: inset 0 0 !important;
     -webkit-box-shadow: inset 0 0 !important;
+  }
+}
+
+@media only screen and (min-width: 281px) {
+  body{
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }

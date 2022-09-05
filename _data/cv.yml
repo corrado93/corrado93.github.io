@@ -15,8 +15,8 @@ person:
   location: Ingolstadt, 85049, Germany
   citizenship: Italian
   email: > 
-        gcorrado1993@gmail.com,
-        giuseppe.corrado@airbus.com
+        gcorrado1993@gmail.com
+#       , giuseppe.corrado@airbus.com
   site: corrado93.github.io
   phone: #+
   github: /corrado93
@@ -32,7 +32,7 @@ career:
               In the framework of the EU funded ITN-EID <a href="https://www.optimacs.net">OptiMACS</a>
               project, a research work involving the development of advanced failure models 
               for aerospace composite structures was carried out. The main contributions are: an extended laminate failure theory (details in 
-              an <a href="https://doi.org/10.1017/aer.2021.121">journal article</a> 
+              a <a href="https://doi.org/10.1017/aer.2021.121">journal article</a> 
               - <a href="https://hdl.handle.net/10216/139464">available here</a> -,
                presented at the <a href="https://congress.cimne.com/Composites2021/frontal/programprint.asp?t=intro" 
               >8th Conference on Mechanical Response of Composites</a> in 2021), a mesoscale damage progression 
@@ -40,7 +40,6 @@ career:
               and <a href="https://eccm20.org/">ECCM</a> conferences in 2022, and submitted to “Composites Part B: Engineering”).
    #accomplishments:
    # - accomplishment: #
-   # - accomplishment: #He refers to himself as the king of pranks. Since he the most funniest of his brothers and he hasn't shown to be wrong since he was able to show his pranking skills against his brothers like water balloons as he wants to prank them all and he was able to use his prank of water ballon to use against the tank of the truck.
  - position: Marie Skłodowska-Curie Fellow
    company: Faculty of Engineering, University of Porto
    location: Porto, Portugal
@@ -52,8 +51,7 @@ career:
               <a href="https://www.aerosociety-events.com/raes-events-terminal/7th-aircraft-structural-design-conference/" 
               target="_blank">7th Aircraft Structural Design Conference</a>).
    #accomplishments:
-   # - accomplishment: #Mikey's skills as a skateboarder and a ninja give him a great ability with balance.
-   # - accomplishment: #He has the normal ability of a turtle to go into his shell.
+   # - accomplishment: #
  - position: Scientific researcher
    company: University of Strathclyde
    location: Glasgow, UK
